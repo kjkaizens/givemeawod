@@ -82,12 +82,12 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 600px;
 }
 
-.card:hover,
-.card:focus,
-.card:active {
+a.card:hover,
+a.card:focus,
+a.card:active {
   color: #0070f3;
   border-color: #0070f3;
 }
