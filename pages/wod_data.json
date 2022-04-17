@@ -13,18 +13,32 @@
     "alias": ["16042022","20042022"]
 },
 {
-    "name": "AMRAP",
-    "equipments":  " Bar, Assault Bike, Bar Bell",
-    "description": "As many reps as possible in 15 mins\n  20 Push-ups\n 30 Sit-ups\n 40 Cal Row.",
-    "video":"https://www.instagram.com/reel/CbdbzcbDa1M/",
-    "alias": ["18042022"]
-},
-{
     "name": "For Time",
     "equipments":  " Bar, Rowing Machine, Bar Bell, Wall" , 
     "description": " For Time \n 20 Pull-Ups \n 500 m row \n 20 thrusters \n 500 m row\n 20 Toe to Bars\n500 m row\n20 Hand stand Push up.",
     "video":"https://www.instagram.com/reel/CbnYaH5Dioi/",
     "alias": ["17042022"]
+},
+{
+    "name": "AMRAP 15",
+    "equipments":  "Rowing Machine",
+    "description": "As many reps as possible in 15 mins\n  20 Push-ups\n 30 Sit-ups\n 40 Cal Row.",
+    "video":"https://www.instagram.com/reel/CbdbzcbDa1M/",
+    "alias": ["18042022"]
+},
+{
+    "name": "AMRAP 10",
+    "equipments":  " Kettle Bells (24kgs, 12kgs)" , 
+    "description": "As many reps as possible in 10 mins\n 10 KB Swing (24kgs)\n 20 m KB carry (24kgs)\n 10 KB Sit-ups (12kgs)\n 10 KB Clean + Jerk (12kgs)",
+    "video":"https://www.instagram.com/reel/CcVprh7DzBr/",
+    "alias": ["19042022"]
+},
+{
+    "name": "EMOM 36",
+    "equipments":  "Rowing Machine, DB (8kgs), Lat Extension Machine, Inclined Sit-ups" , 
+    "description": "Every minute of minute for 36 mins\n 12 Cal row\n 8+8 DB Triceps extension (8kgs)\n 15 Seated in & outs\n 10 Burpees\n 12 Lat extension\n 12 inclined Sit-ups",
+    "video":"https://www.instagram.com/reel/CcVprh7DzBr/",
+    "alias": ["20042022"]
 }
 
 ]
