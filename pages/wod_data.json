@@ -10,6 +10,21 @@
     "equipments":  " Bar, Assault Bike, Bar Bell",
     "description": " As many reps until first NO-REP.  \n8 Cal Assault Bike \n5 Bar Over Burpees \n1 Bar Muscle ups",
     "video":"https://www.instagram.com/reel/CbkyUvTDVHp/",
-    "alias": ["16042022","18042022"]
-}
+    "alias": ["16042022","20042022"]
+},
+{
+    "name": "AMRAP",
+    "equipments":  " Bar, Assault Bike, Bar Bell",
+    "description": "As many reps as possible in 15 mins\n  20 Push-ups\n 30 Sit-ups\n 40 Cal Row.",
+    "video":"https://www.instagram.com/reel/CbdbzcbDa1M/",
+    "alias": ["18042022"]
+},
+{
+    "name": "For Time",
+    "equipments":  " Bar, Rowing Machine, Bar Bell, Wall" , 
+    "description": " For Time \n 20 Pull-Ups \n 500 m row \n 20 thrusters \n 500 m row\n 20 Toe to Bars\n500 m row\n20 Hand stand Push up.",
+    "video":"https://www.instagram.com/reel/CbnYaH5Dioi/",
+    "alias": ["17042022"]
+},
+
 ]
