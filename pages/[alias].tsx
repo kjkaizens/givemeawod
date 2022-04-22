@@ -2,6 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
+import React from 'react'
 import styles from '../styles/Home.module.css'
 import data from './wod_data.json'
 
@@ -39,7 +40,7 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
   )
 }
 
-const PageLayout = (props:{children:React.ReactChild}) =>{
+const PageLayout = (props:{children:React.ReactChild|React.ReactChild[]}) =>{
   return(
     <div className={styles.container}>
       <Head>
@@ -65,6 +66,18 @@ const PageLayout = (props:{children:React.ReactChild}) =>{
   )
 }
 
+const RandomWodButton = () =>{
+  const l = data.length
+  const d = Math.floor(Math.random() * l);
+  const randomWodLink = "/" + data[d].alias
+  return(
+    <a href={randomWodLink}>
+    <button className={styles.randomWodButton}>
+      Give me another WOD
+    </button>
+    </a>
+  )
+}
 const Home: NextPage = () => {
   const router = useRouter()
   const alias = router.query.alias
@@ -82,12 +95,14 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
         Rest Day!! Remember to Eat Well, Drink Water and Rest well. 
       </h1>
+      <RandomWodButton/>
       </PageLayout>
     )
   }
   return (
     <PageLayout>
       <WodCard {...wod_data}/>
+      <RandomWodButton/>
     </PageLayout>  
   )
 }
