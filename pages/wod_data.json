@@ -71,9 +71,9 @@
     
 },
 {
-    "name": "CrossFit Open 22.1 ",
-    "equipments":  "Box, DB (22.5kgs/15kgs), Wall" , 
-    "description": "Complete as many rounds as possible in 15 minutes of\n 3 wall walks\n12 dumbbell snatches\n 15 box jump-overs ",
+    "name": "Basement Triangle",
+    "equipments":  "Rowing machine, Kettle Bell(16kgs), 5m space" , 
+    "description": "EMOM for 39 minutes:\n x Cal Row\nx-times KB Swings\n x-times 5m shuttle run \n1 min rest \n x- choose a number between 10 - 20 depending on your fitness level ",
     "video": "",
     "alias": ["27042022"]
     
@@ -92,6 +92,14 @@
     "description": "10 rounds for time \n500m rowing \n 1 min break between sets ",
     "video": "",
     "alias": ["29042022"]
+    
+},
+{
+    "name": "CrossFit Open 22.1 ",
+    "equipments":  "Box, DB (22.5kgs/15kgs), Wall" , 
+    "description": "Complete as many rounds as possible in 15 minutes of\n 3 wall walks\n12 dumbbell snatches\n 15 box jump-overs ",
+    "video": "",
+    "alias": ["30042022"]
     
 }
 
