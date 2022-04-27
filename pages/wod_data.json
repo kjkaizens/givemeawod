@@ -85,6 +85,14 @@
     "video": "",
     "alias": ["28042022"]
     
+},
+{
+    "name": "Row Intervals",
+    "equipments": "Rowing Machine" , 
+    "description": "10 rounds for time \n500m rowing \n 1 min break between sets ",
+    "video": "",
+    "alias": ["29042022"]
+    
 }
 
 ]
