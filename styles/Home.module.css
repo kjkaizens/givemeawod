@@ -51,9 +51,9 @@
 }
 
 .description {
-  margin: 2rem 0;
+  margin: 4rem 0;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .code {
@@ -94,13 +94,13 @@ a.card:active {
 
 .card h2 {
   margin: 0 0 1rem 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 .card p {
   margin: 0;
   font-size: 1.25rem;
-  line-height: 1.5;
+  line-height: 1.25;
 }
 
 .logo {
