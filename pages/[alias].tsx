@@ -78,6 +78,21 @@ const RandomWodButton = () =>{
     </a>
   )
 }
+
+const RehabWodButton = () =>{
+  const rehabWodLink = "/rehabWOD"
+  return(
+    //<a target="_blank" href={process.env.PUBLIC_URL + "terminos.html"} > terminos</a>
+    //<a href={rehabWodLink}>
+    <a href={"rehabWOD/index.html"} >  
+    <button className={styles.rehabWodButton}>
+      Give me Rehab WOD
+    </button>
+    </a>
+  )
+}
+
+
 const Home: NextPage = () => {
   const router = useRouter()
   const alias = router.query.alias
@@ -96,6 +111,7 @@ const Home: NextPage = () => {
         Rest Day!! Remember to Eat Well, Drink Water and Rest well. 
       </h1>
       <RandomWodButton/>
+      <RehabWodButton/>
       </PageLayout>
     )
   }
@@ -103,6 +119,7 @@ const Home: NextPage = () => {
     <PageLayout>
       <WodCard {...wod_data}/>
       <RandomWodButton/>
+      <RehabWodButton/>
     </PageLayout>  
   )
 }
