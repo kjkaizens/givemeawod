@@ -127,12 +127,20 @@
     
 },
 {
-    "name": "5 rounds x E3M",
+    "name": "5 rounds x E4M",
     "equipments":  "Rowing Machine, Thread mill " , 
-    "description": "3 Rounds x Every 3 mins until one reach 500 Calories on rowing machine \n 500m rowing \n200m run",
+    "description": "Every 4 mins until you reach 500 Calories on rowing machine \n 500m rowing \n200m run",
     "video": "",
-    "alias": ["03052022"]
+    "alias": ["03052022"]    
+},
+{
+    "name": "EMOM 10",
+    "equipments":  "Barbell, Weights" , 
+    "description": "Every minute of minute for 36 mins \n 5 Power Clean & Jerks @ 60/40 kg",
+    "video": "",
+    "alias": ["04052022"]
     
 }
+
 
 ]
