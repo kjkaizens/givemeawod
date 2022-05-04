@@ -11,7 +11,7 @@ var spotsconfiga = {
     "outline": "#cc2900",//outline color of the pin
     "upColor": "#ff6600",//color of the pin when drawing load
     "overColor": "#cc2900",//color of the pin when mouse hover
-    "url": "https://www.humananatomyillustrations.com/",//link to any webpage
+    "url": "www.givemewod.com",//link to any webpage
     "target": "new_window",// use "new_window", "same_window", "modal", or "none"
     "enabled": true//true/false to activate/deactivate this pin
   },
@@ -21,7 +21,7 @@ var spotsconfiga = {
     "size": 40,
     "outline": "#FF0000",
     "upColor": "rgba(255, 0, 0, 0.3)", "overColor": "rgba(255, 0, 0, 0.7)",
-    "url": "https://www.humananatomyillustrations.com/", "target": "same_window",
+    "url": "www.givemewod.com", "target": "same_window",
     "enabled": true
   },
   ]
@@ -39,7 +39,7 @@ var spotsconfigb = {
     "outline": "#cc2900",//outline color of the pin
     "upColor": "#ff6600",//color of the pin when drawing load
     "overColor": "#cc2900",//color of the pin when mouse hover
-    "url": "https://www.humananatomyillustrations.com/",//link to any webpage
+    "url": "www.givemewod.com",//link to any webpage
     "target": "new_window",// use "new_window", "same_window", "modal", or "none"
     "enabled": true//true/false to activate/deactivate this pin
   },
@@ -49,7 +49,7 @@ var spotsconfigb = {
     "size": 50,
     "outline": "#FF0000",
     "upColor": "rgba(255, 0, 0, 0.3)", "overColor": "rgba(255, 0, 0, 0.7)",
-    "url": "https://www.humananatomyillustrations.com/", "target": "same_window",
+    "url": "www.givemewod.com", "target": "same_window",
     "enabled": true
   },
   ]
