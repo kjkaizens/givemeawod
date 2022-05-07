@@ -143,7 +143,7 @@
 },
 {
     "name": "AMRAP 5 Abs blaster",
-    "equipments":  "" , 
+    "equipments":  "None" , 
     "description": "As many rounds as possible in 5 mins \n 20 Situps \n 20 In and outs \n 20 Mountain Climbers",
     "video": "",
     "alias": ["05052022"]
@@ -151,7 +151,7 @@
 },
 {
     "name": "EMOM 16",
-    "equipments":  "" , 
+    "equipments":  "None" , 
     "description": "Every minute of minute for 15 mins \n10 x 5 m shuttle run \n 10 x Burpees \n 20 Situps \n 20 Alternating Lunges",
     "video": "",
     "alias": ["06052022"]
@@ -159,7 +159,7 @@
 },
 {
     "name": "10 X E3M ",
-    "equipments":  "" , 
+    "equipments":  "None" , 
     "description": "Every 3 minutes of minute for 10 rounds \n10 Pistol Situps \n 15  Pushups \n 20 Tucks \n 10 X 5 m Run",
     "video": "",
     "alias": ["07052022"]

@@ -52,16 +52,6 @@ const PageLayout = (props:{children:React.ReactChild|React.ReactChild[]}) =>{
       <main className={styles.main}>
         {props.children}
       </main>
-
-
-      <footer className={styles.footer}>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Have a good WOD --  <a href ="https://www.linkedin.com/in/jacobkevin/">  Kevin</a> and <a href ="https://github.com/Addono" >Adriaan</a>
-        </a>
-      </footer>
     </div>
   )
 }
