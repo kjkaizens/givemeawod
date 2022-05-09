@@ -168,9 +168,17 @@
 {
     "name": "Run ",
     "equipments":  "None" , 
-    "description": "Every 2 minutes of minute for 10 rounds \n200m run\n 30 seconds break",
+    "description": "Every 2 minutes for 10 rounds \n200m run\n 30 seconds break",
     "video": "",
     "alias": ["08052022"]
+    
+},
+{
+    "name": "",
+    "equipments":  "None" , 
+    "description": "Every of minute for 20 minutes \n30 seconds plank\n Mountain Climber\n 20 Sit-ups\n 20 tucks",
+    "video": "",
+    "alias": ["09052022"]
     
 }
 
