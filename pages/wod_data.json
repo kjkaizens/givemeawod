@@ -204,5 +204,29 @@
     "video": "",
     "alias": ["12052022"]
     
+},
+{
+    "name": "YGIG 20 mins",
+    "equipments":  "Barbell, Pull-up Bar" , 
+    "description": "As many rounds as possible with a partner(You Go I Go) \n6 Thrusters (30/40kgs) \n6 5m Shuttle Run \n6 Pull-ups",
+    "video": "",
+    "alias": ["13052022"]
+    
+},
+{
+    "name": "YGIG 20 mins",
+    "equipments":  "Pull-up Bar" , 
+    "description": "As many rounds as possible with a partner(You Go I Go) \n10 Air Squats\n6 Burpees \n6 Toe to Bar",
+    "video": "",
+    "alias": ["14052022"]
+    
+},
+{
+    "name": "YGIG 20 mins",
+    "equipments":  "Jump Ropes, Kettle Bell" , 
+    "description": "As many rounds as possible with a partner(You Go I Go) \n20 Double Under\n20 Sit-ups\n10 KB Swing (16kgs)",
+    "video": "",
+    "alias": ["15052022"]
+    
 }
 ]
