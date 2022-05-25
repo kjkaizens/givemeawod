@@ -93,21 +93,25 @@ const Home: NextPage = () => {
       </>
     )
   }
-  const wod_data = data.find(d=>d.alias.includes(typeof today_alias=== "string"? today_alias: today_alias[0]))
+  const ss = typeof today_alias=== "string"? today_alias: today_alias[0]
+  const wod_data = data.find(d=>d.alias===ss)
   if (!wod_data){
     const l = data.length
-    const d = Math.floor(Math.random() * l);
-    const new_today_alias = data[d].alias
-    const wod_data = data.find(d=>d.alias.includes(typeof new_today_alias=== "string"? new_today_alias: new_today_alias[0]))
+    const x = Math.floor(Math.random() * l);
+    const new_wod_data = data[x]
     return(
-      wod_data
+      <PageLayout>
+        <WodCard {...new_wod_data}/>
+        <RandomWodButton/>
+        {/* <RehabWodButton/> */}
+    </PageLayout>  
     )
   }
   return (
     <PageLayout>
       <WodCard {...wod_data}/>
       <RandomWodButton/>
-      <RehabWodButton/>
+      {/* <RehabWodButton/> */}
     </PageLayout>  
   )
 }
