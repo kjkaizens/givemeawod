@@ -17,7 +17,7 @@ const Details = (props: { description: string }) => {
 
 const WodCard = (props: { name:string, equipments: string, description: string, video?:string }) => {
   return (
-    <div>
+    <div className={styles.infocard}>
       <h1 className={styles.title}>
         {props.name}
       </h1>
@@ -36,22 +36,6 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
             <Details description={props.description} />
           </div>}
       </div>
-    </div>
-  )
-}
-
-const PageLayout = (props:{children:React.ReactChild|React.ReactChild[]}) =>{
-  return(
-    <div className={styles.container}>
-      <Head>
-        <title>Give me a WOD</title>
-        <meta name="description" content="Creates Workout of the day" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    
-      <main className={styles.main}>
-        {props.children}
-      </main>
     </div>
   )
 }
@@ -82,6 +66,22 @@ const RehabWodButton = () =>{
   )
 }
 
+
+const PageLayout = (props:{children:React.ReactChild|React.ReactChild[]}) =>{
+  return(
+    <div className={styles.container}>
+      <Head>
+        <title>Give me a WOD</title>
+        <meta name="description" content="Creates Workout of the day" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+    
+      <main className={styles.main}>
+        {props.children}
+      </main>
+    </div>
+  )
+}
 
 const Home: NextPage = () => {
   const router = useRouter()
