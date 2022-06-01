@@ -83,7 +83,6 @@ const Home: NextPage = () => {
   if(!today_alias) {
     return(
       <>
-      Page not found. Return to main page
       </>
     )
   }
