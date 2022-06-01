@@ -3,6 +3,7 @@
   background-color:#F6F6F6;
 }
 
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -41,21 +42,43 @@
 }
 
 .title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 3rem;
-}
-
-.title,
-.description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  
+  color: #2B2B2B;
+  
+}
+
+.subtitle {
+  margin: 1rem;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.06em;
+  
+  color: #2B2B2B;
+  
 }
 
 .description {
-  margin: 1rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
+  margin: 1rem;
+  font-family: 'Montserrat';
+  font-style: 900;
+  font-weight: 400;
+  font-size: .8rem;
+  line-height: .4;
+  letter-spacing: 0.06em;
+  color: #787878;
 }
+
 
 .code {
   background: #fafafa;
@@ -75,7 +98,6 @@
 }
 
 .card {
-  font-family: 'Helvetica';
   margin: .5rem;
   padding: 1.5rem;
   text-align: left;
@@ -117,17 +139,20 @@ a.card:active {
   }
 }
 
+/* .wrapper {
+  position: absolute;
+  min-height: 100vh;
+} */
+
 .randomWodButton{
-  font-family: 'Helvetica';
-  font-style: normal;
+  top: 10rem;
+  position: relative;
   background-color: #FFFFFF; /* Green */
   border: none;
   color: black;
   padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .rehabWodButton{
@@ -151,9 +176,7 @@ a.card:active {
 
 .navbarTitle{
   /* position: relative;   */
-  font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.6rem;
   line-height: 2.0rem;
   margin: .4rem;
@@ -166,9 +189,13 @@ a.card:active {
   color: #2B2B2B;
 }
 
+
 .infocard{
-  position: relative;
+  position: absolute;
+  top: 5rem;
+  left: 2rem;
+  right: 2rem;
   background: #FFFFFF;
-  box-shadow: 0rem 2rem 10rem rgba(0, 0, 0, 0.1);
-  border-radius: .4rem;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }

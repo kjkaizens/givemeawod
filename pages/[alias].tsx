@@ -8,10 +8,9 @@ import data from './wod_data.json'
 
 const Details = (props: { description: string }) => {
   return (
-    <>
-      <h2>Details </h2>
-      {props.description.split('\n').map((text,index) => <p key = {index} id = {index.toString()}>{text}</p>)}
-    </>
+    <p className={styles.description}>
+        {props.description.split('\n').map((text,index) => <p key = {index} id = {index.toString()}>{text}</p>)}
+    </p>
   )
 }
 
@@ -22,20 +21,15 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
         {props.name}
       </h1>
 
-      <p className={styles.description}>
-        Equipments needed :  {props.equipments}
+      <p>
+        <div className={styles.subtitle}>Equipment</div>
+        <div className={styles.description}>{props.equipments.split(',').map((text,index) => <p key = {index} id = {index.toString()}>{text}</p>)}</div>
       </p>
 
-      <div className={styles.grid}>
-        {props.video ?
-          <a href={props.video} className={styles.card}>
-            <Details description={props.description} />
-          </a>
-          :
-          <div className={styles.card}>
-            <Details description={props.description} />
-          </div>}
-      </div>
+      <p>
+        <div  className={styles.subtitle}>Details</div>
+        <Details description={props.description} />
+      </p>
     </div>
   )
 }
@@ -101,17 +95,19 @@ const Home: NextPage = () => {
     const new_wod_data = data[x]
     return(
       <PageLayout>
-        <WodCard {...new_wod_data}/>
-        <RandomWodButton/>
-        {/* <RehabWodButton/> */}
+         <div className={styles.wrapper}>
+            <WodCard {...new_wod_data}/>
+            <RandomWodButton/> 
+        </div>
     </PageLayout>  
     )
   }
   return (
     <PageLayout>
-      <WodCard {...wod_data}/>
-      <RandomWodButton/>
-      {/* <RehabWodButton/> */}
+      <div className={styles.wrapper}>
+        <WodCard {...wod_data}/>
+        <RandomWodButton/>
+      </div>
     </PageLayout>  
   )
 }
