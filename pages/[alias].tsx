@@ -5,12 +5,22 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import data from './wod_data.json'
+import App from '../components/spec'
+
 
 const Details = (props: { description: string }) => {
   return (
-    <p className={styles.description}>
+    <p className={styles.lineDescription}>
         {props.description.split('\n').map((text,index) => <p key = {index} id = {index.toString()}>{text}</p>)}
     </p>
+  )
+}
+
+const Specs =() =>{
+  return(
+    <div>
+      <App/>
+    </div>
   )
 }
 
@@ -30,6 +40,11 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
         <div  className={styles.subtitle}>Details</div>
         <Details description={props.description} />
       </p>
+
+      {/* <p>
+        <Specs/>
+      </p> */}
+
     </div>
   )
 }
@@ -94,7 +109,7 @@ const Home: NextPage = () => {
     const new_wod_data = data[x]
     return(
       <PageLayout>
-         <div className={styles.wrapper}>
+         <div >
             <WodCard {...new_wod_data}/>
             <RandomWodButton/> 
         </div>
@@ -103,7 +118,7 @@ const Home: NextPage = () => {
   }
   return (
     <PageLayout>
-      <div className={styles.wrapper}>
+      <div>
         <WodCard {...wod_data}/>
         <RandomWodButton/>
       </div>
