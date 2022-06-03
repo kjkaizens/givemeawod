@@ -95,10 +95,9 @@
 } 
 */
 .lineDescription {
-  margin-left: 1rem;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-block-start: 0;
   font-family: 'Montserrat';
+  margin-left: 1em;
   font-style: 900;
   font-weight: 400;
   font-size: .8rem;
@@ -108,7 +107,7 @@
 }
 
 .description {
-  margin: 1rem;
+  margin-left: 1em;
   font-family: 'Montserrat';
   font-style: 900;
   font-weight: 400;

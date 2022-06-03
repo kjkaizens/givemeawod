@@ -11,7 +11,7 @@ import App from '../components/spec'
 const Details = (props: { description: string }) => {
   return (
     <p className={styles.lineDescription}>
-        {props.description.split('\n').map((text,index) => <p key = {index} id = {index.toString()}>{text}</p>)}
+        {props.description.split('\n').map((text,index) => <div key = {index} id = {index.toString()}>{text}</div>)}
     </p>
   )
 }
