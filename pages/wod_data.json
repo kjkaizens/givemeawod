@@ -14,8 +14,18 @@
     "description": "For Time \n 300 Double Under's \n (Do 10 Burpees everytime you trip.) ",
     "video":"",
     "alias" : "07062022",
-    "location": "", 
+    "location": "home", 
     "duration": "short",
+    "intenstiy": "hard"
+},
+{
+    "name": "Push the limits",
+    "equipments":  "None",
+    "description": "2 rounds \n10 Burpees \n 25 Pushups \n 50 Lunges \n 100 Situps \n 150 Air Squats ",
+    "video":"",
+    "alias" : "06062022",
+    "location": "", 
+    "duration": "Medium",
     "intenstiy": "hard"
 },
 {
