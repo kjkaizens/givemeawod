@@ -6,7 +6,8 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 import data from './wod_data.json'
 import App from '../components/spec'
-
+import Navbar from '../components/Navbar'
+import { StyleSheet, Text, View } from "react-native";
 
 const Details = (props: { description: string }) => {
   return (
@@ -27,9 +28,9 @@ const Specs =() =>{
 const WodCard = (props: { name:string, equipments: string, description: string, video?:string }) => {
   return (
     <div className={styles.infocard}>
-      <h1 className={styles.title}>
+      <div className={styles.title}>
         {props.name}
-      </h1>
+      </div>
 
       <p>
         <div className={styles.subtitle}>Equipment</div>
@@ -41,9 +42,9 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
         <Details description={props.description} />
       </p>
 
-      {/* <p>
+      <p>
         <Specs/>
-      </p> */}
+      </p>
 
     </div>
   )
@@ -78,16 +79,23 @@ const RehabWodButton = () =>{
 
 const PageLayout = (props:{children:React.ReactChild|React.ReactChild[]}) =>{
   return(
-    <div className={styles.container}>
+    <div className={styles.fullContainer}>
       <Head>
         <title>Give me a WOD</title>
         <meta name="description" content="Creates Workout of the day" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    
-      <main className={styles.main}>
-        {props.children}
-      </main>
+      <div className={styles.header}>
+          <Navbar></Navbar>
+      </div>
+      <div className={styles.body}>
+        <div className={styles.container}>  
+            {props.children}
+        </div>
+      </div>
+      <div className={styles.footer}>
+        <RandomWodButton/> 
+      </div>
     </div>
   )
 }
@@ -111,7 +119,6 @@ const Home: NextPage = () => {
       <PageLayout>
          <div >
             <WodCard {...new_wod_data}/>
-            <RandomWodButton/> 
         </div>
     </PageLayout>  
     )
@@ -120,7 +127,6 @@ const Home: NextPage = () => {
     <PageLayout>
       <div>
         <WodCard {...wod_data}/>
-        <RandomWodButton/>
       </div>
     </PageLayout>  
   )

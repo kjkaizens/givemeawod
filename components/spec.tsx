@@ -8,16 +8,16 @@ function App() {
 
     return(
         <div id='wrapper' className={styles.specsSubtitle}>
-                    <div onClick={toggle}>
-                        <div className={styles.specsChild}>Specs</div>
-                        <span className={styles.specsChild} >{selected ? ' ∨ ':'∧'}</span>
+                    <div >
+                        <div className={styles.specsChild} onClick={toggle}>Specs</div>
+                        <span className={styles.specsChild} onClick={toggle} >{selected ? ' ∨ ':'∧'}</span>
                     
                    
-                        <div className={styles.description}>
+                        <div className={styles.specDescription}>
                             {selected ? '': 
                                 <div id='drop-down'>
                                     <div id='intensity'>
-                                        <div className={styles.description}>Intensity</div>
+                                        <div className={styles.specDescription}>Intensity</div>
                                         <div id = 'level' className={styles.levels}> 
                                             <button className={styles.pill}>Easy</button>
                                             <button className={styles.pill}>Medium</button>
@@ -25,7 +25,7 @@ function App() {
                                         </div>
                                     </div>
                                     <div id='duration'>
-                                        <div className={styles.description}>Duration</div>
+                                        <div className={styles.specDescription}>Duration</div>
                                         <div id = 'level' className={styles.levels}>
                                             <button className={styles.pill}>Short</button>
                                             <button className={styles.pill}>Medium</button>
@@ -33,7 +33,7 @@ function App() {
                                         </div>
                                     </div>
                                     <div id='location'>
-                                        <div className={styles.description}>Location</div>
+                                        <div className={styles.specDescription}>Location</div>
                                         <div id = 'level' className={styles.levels}>
                                             <button className={styles.pill}>Gym</button>
                                             <button className={styles.pill}>Home</button>
@@ -41,8 +41,9 @@ function App() {
                                         </div>
                                     </div>
                                 </div>}
-                        </div> 
-                        </div>         
+                        </div>
+
+                    </div>         
         </div>
     )
 }
