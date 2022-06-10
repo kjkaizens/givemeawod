@@ -224,7 +224,7 @@
     margin-top: auto;
     margin-bottom: auto;
     background-color: white;
-    align-items: center;
+    justify-content: center;
     color: #2B2B2B;
     border: none;
     height: 1.9rem;
@@ -237,7 +237,6 @@
   font-weight: bold;
   font-size: 1.5rem;
   line-height: 2.0rem;
-  background-color: red;
   margin: .3rem;
   /* display: flex; */
   align-items: center;
