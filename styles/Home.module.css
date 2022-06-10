@@ -256,11 +256,6 @@
   color: #2B2B2B;
 }
 
-
-
-
-
-
 .infocard{
   margin: auto;
   margin-right: auto;
@@ -282,6 +277,7 @@
   align-items: center;
   padding: 2px 10px;
   gap: 10px;
+  color: #2B2B2B;
   background: #E0E0E0;
   border-radius: 100px;
   border: none;
