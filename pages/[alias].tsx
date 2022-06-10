@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 import React from 'react'
 import styles from '../styles/Home.module.css'
 import data from './wod_data.json'
-import App from '../components/spec'
+import Spec from '../components/spec'
 import Navbar from '../components/Navbar'
 
 const Details = (props: { description: string }) => {
@@ -16,34 +16,27 @@ const Details = (props: { description: string }) => {
   )
 }
 
-const Specs =() =>{
-  return(
-    <div>
-      <App/>
-    </div>
-  )
-}
 
 const WodCard = (props: { name:string, equipments: string, description: string, video?:string }) => {
   return (
-    <div className={styles.infocard}>
+    <div className={styles.infoCard}>
       <div className={styles.title}>
         {props.name}
       </div>
 
-      <p>
+      <div>
         <div className={styles.subtitle}>Equipment</div>
         <div className={styles.description}>{props.equipments.split(',').map((text,index) => <p key = {index} id = {index.toString()}>{text}</p>)}</div>
-      </p>
+      </div>
 
-      <p>
+      <div>
         <div  className={styles.subtitle}>Details</div>
         <Details description={props.description} />
-      </p>
+      </div>
 
-      <p>
-        <Specs/>
-      </p>
+      <div>
+        <Spec/>
+      </div>
 
     </div>
   )

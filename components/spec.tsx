@@ -1,21 +1,23 @@
 import {useState} from 'react';
 import styles from "../styles/Home.module.css"
-import data from '../pages/wod_data.json'
 
-function App() {
+
+function Spec() {
     const [selected,setSelected] = useState<boolean>(true)
     const toggle = () => setSelected((oldValue) => !oldValue)
 
     return(
-        <div id='wrapper' className={styles.specsSubtitle}>
+        <div id='wrapper' className={styles.specsDropDown}>
                     <div >
-                        <div className={styles.specsChild} onClick={toggle}>Specs</div>
-                        <span className={styles.specsChild} onClick={toggle} >{selected ? ' ∨ ':'∧'}</span>
+                        <div className={styles.specBar} onClick={toggle}>
+                            <div className={styles.specsTitle} >Specs</div>
+                            <span className={styles.specsChild} >{selected ? '∨ ':'∧'}</span>
+                        </div>
                     
                    
                         <div className={styles.specDescription}>
                             {selected ? '': 
-                                <div id='drop-down'>
+                                <div className={styles.dropDown}>
                                     <div id='intensity'>
                                         <div className={styles.specDescription}>Intensity</div>
                                         <div id = 'level' className={styles.levels}> 
@@ -48,4 +50,4 @@ function App() {
     )
 }
 
-export default App;
+export default Spec;

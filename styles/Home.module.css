@@ -53,6 +53,7 @@
 }
 
 .title {
+  padding:10px;
   margin-left: 2rem ;
   margin-right:2rem;
   font-family: 'Montserrat';
@@ -82,30 +83,6 @@
   
 }
 
-.specsSubtitle{
-  width: 100%;
-  font-family: 'Montserrat';
-  display: flex;
-  align-content: center;
-  background: #F9F9F9;
-}
-
-.specsChild {
-  margin-left: 1rem;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  justify-content: space-between;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  letter-spacing: 0.06em;
-}
-
-
-
 
 .lineDescription {
   margin-block-start: 0;
@@ -129,20 +106,6 @@
   letter-spacing: 0.06em;
   color: #787878;
 }
-
-.specDescription {
-  width: 100%;
-  margin-block-start: .5rem;
-  margin-block-end: .3rem;
-  margin-left: 1em;
-  font-family: 'Montserrat';
-  font-style: 900;
-  font-weight: 400;
-  font-size: .8rem;
-  letter-spacing: 0.06em;
-  color: #787878;
-}
-
 
 
 .code {
@@ -256,7 +219,9 @@
   color: #2B2B2B;
 }
 
-.infocard{
+
+/*info card elements*/
+.infoCard{
   margin: auto;
   margin-right: auto;
   min-width: 290px;
@@ -268,6 +233,59 @@
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
+
+
+.specBar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specsDropDown{
+  width: 100%;
+  background: #F9F9F9;
+}
+
+.specsTitle {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 1rem;
+  display: flex;
+  vertical-align: middle;
+  position: relative;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.06em;
+}
+
+.specsChild{
+  margin-right: 1rem;
+  font-weight: 900;
+}
+
+
+.specDescription {
+  width: 95%;
+  margin-block-start: .5rem;
+  margin-block-end: .3rem;
+  margin-left: 1em;
+  font-family: 'Montserrat';
+  font-style: 900;
+  font-weight: 400;
+  font-size: .8rem;
+  letter-spacing: 0.06em;
+  color: #787878;
+}
+
+.dropDown{
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+
 
 .pill{
   display: inline-block;
