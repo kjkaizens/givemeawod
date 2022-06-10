@@ -13,7 +13,7 @@ function Navbar(){
 
   return (
     <nav className={styles.navbar}>
-    <button onClick={handleToggle} className={styles.navbarButton} >
+    <button onClick={handleToggle} className={styles.navbarButtonSpace} >
       {navbarOpen ? (
         <MdClose className={styles.navbarButton}/>
       ) : (
