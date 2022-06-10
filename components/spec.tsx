@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import styles from "../styles/Home.module.css"
-import {IoIosArrowDropdown} from "react-icons/io";
-import {IoIosArrowDropup} from "react-icons/io";
+import {IoMdArrowDropdown} from "react-icons/io";
+import {IoMdArrowDropup} from "react-icons/io";
 
 
 function Spec() {
@@ -14,9 +14,9 @@ function Spec() {
                         <div className={styles.specBar} onClick={toggle}>
                             <div className={styles.specsTitle} >Specs</div>
                             <span className={styles.specsChild} >{selected ? (
-                                <IoIosArrowDropdown className={styles.specsButton}/>
+                                <IoMdArrowDropdown className={styles.specsButton}/>
                                 ):(
-                                <IoIosArrowDropup className={styles.specsButton}/>
+                                <IoMdArrowDropup className={styles.specsButton}/>
                                 )
                             }</span>
                         </div>
