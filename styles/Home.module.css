@@ -246,6 +246,13 @@
   background: #F9F9F9;
 }
 
+.specsButton{
+  margin: auto;
+  justify-content: center;
+  color: #2B2B2B;
+  height: 100%;
+  width: 25px;
+}
 .specsTitle {
   padding-top: 8px;
   padding-bottom: 8px;
