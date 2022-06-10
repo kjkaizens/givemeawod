@@ -19,6 +19,16 @@
     "intenstiy": "hard"
 },
 {
+    "name": "Fall in (L)rov(ve)",
+    "equipments":  "Rowing machine",
+    "description": "5 rounds \n 12 calorie rowing \n 8 burpees \n 15 situps \n40 sec plank",
+    "video":"",
+    "alias" : "1062022",
+    "location": "gym", 
+    "duration": "medium",
+    "intenstiy": "medium"
+},
+{
     "name": "Push the limits",
     "equipments":  "None",
     "description": "2 rounds \n10 Burpees \n 25 Pushups \n 50 Lunges \n 100 Situps \n 150 Air Squats ",
