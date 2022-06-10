@@ -7,7 +7,6 @@ import styles from '../styles/Home.module.css'
 import data from './wod_data.json'
 import App from '../components/spec'
 import Navbar from '../components/Navbar'
-import { StyleSheet, Text, View } from "react-native";
 
 const Details = (props: { description: string }) => {
   return (
