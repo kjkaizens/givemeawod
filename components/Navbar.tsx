@@ -21,7 +21,7 @@ function Navbar(){
       )}
     </button>
         {/* <ul className={`menuNav ${navbarOpen ? " showMenu" : "Lets see whats heree"}`}>...</ul> */}
-        <div className={styles.navbarTitle}>   Workout of day</div>
+        <div className={styles.navbarTitle}>Workout of day</div>
     </nav>
   );
 
