@@ -49,7 +49,7 @@ const RandomWodButton = () =>{
   return(
     <a href={randomWodLink}>
     <button className={styles.randomWodButton}>
-      another WOD
+      another workout
     </button>
     </a>
   )
