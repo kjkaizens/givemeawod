@@ -11,7 +11,7 @@ import Navbar from '../components/Navbar'
 const Details = (props: { description: string }) => {
   return (
     <p className={styles.lineDescription}>
-        {props.description.split('\n').map((text,index) => <div key = {index} id = {index.toString()}>{text}</div>)}
+        {props.description.split(',').map((text,index) => <div key = {index} id = {index.toString()}>{text}</div>)}
     </p>
   )
 }
@@ -34,7 +34,7 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
         <Details description={props.description} />
       </div>
 
-      <div>
+     <div>
         <Spec/>
       </div>
 

@@ -1,7 +1,7 @@
 [{
     "name": "Rowing in the deep",
     "equipments":  "Rowing machine",
-    "description": " For Time \n 15-14-13-12-11-10-9-8-7-6-5-4-3-2-1 reps of:\nCalorie Row \nBurpees",
+    "description": " For Time , 15-14-13-12-11-10-9-8-7-6-5-4-3-2-1 reps of:,Calorie Row ,Burpees",
     "video":"",
     "alias" : "15042022",
     "location": "gym", 
@@ -11,7 +11,7 @@
 {
     "name": "Stefanie's Trip and Fall ",
     "equipments":  "Jumping Ropes",
-    "description": "For Time \n 300 Double Under's \n (Do 10 Burpees everytime you trip) ",
+    "description": "For Time , 300 Double Under's , (Do 10 Burpees everytime you trip) ",
     "video":"",
     "alias" : "07062022",
     "location": "home", 
@@ -21,7 +21,7 @@
 {
     "name": "Row in love",
     "equipments":  "Rowing machine",
-    "description": "5 rounds \n 12 calorie rowing \n 8 burpees \n 15 situps \n40 sec plank",
+    "description": "5 rounds , 12 calorie rowing , 8 burpees , 15 situps ,40 sec plank",
     "video":"",
     "alias" : "1062022",
     "location": "gym", 
@@ -31,7 +31,7 @@
 {
     "name": "Push the limits",
     "equipments":  "None",
-    "description": "2 rounds \n10 Burpees \n 25 Pushups \n 50 Lunges \n 100 Situps \n 150 Air Squats ",
+    "description": "2 rounds ,10 Burpees , 25 Pushups , 50 Lunges , 100 Situps , 150 Air Squats ",
     "video":"",
     "alias" : "06062022",
     "location": "", 
@@ -41,48 +41,48 @@
 {
     "name": "Fatigued Muscle Ups",
     "equipments":  " Bar, Assault Bike, Bar Bell",
-    "description": " As many reps until first NO-REP.  \n8 Cal Assault Bike \n5 Bar Over Burpees \n1 Bar Muscle ups",
+    "description": " As many reps until first NO-REP.  ,8 Cal Assault Bike ,5 Bar Over Burpees ,1 Bar Muscle ups",
     "video":"",
     "alias": "16042022"
 },
 {
     "name": "For Time",
     "equipments":  " Bar, Rowing Machine, Bar Bell, Wall" , 
-    "description": " For Time \n 20 Pull-Ups \n 500 m row \n 20 thrusters \n 500 m row\n 20 Toe to Bars\n500 m row\n20 Hand stand Push up.",
+    "description": " For Time , 20 Pull-Ups , 500 m row , 20 thrusters , 500 m row, 20 Toe to Bars,500 m row,20 Hand stand Push up.",
     "video":"",
     "alias": "17042022"
 },
 {
     "name": "AMRAP 15",
     "equipments":  "Rowing Machine",
-    "description": "As many reps as possible in 15 mins\n  20 Push-ups\n 30 Sit-ups\n 40 Cal Row.",
+    "description": "As many reps as possible in 15 mins,  20 Push-ups, 30 Sit-ups, 40 Cal Row.",
     "video":"",
     "alias": "18042022"
 },
 {
     "name": "AMRAP 10",
     "equipments":  " Kettle Bells (24kgs, 12kgs)" , 
-    "description": "As many reps as possible in 10 mins\n 10 KB Swing (24kgs)\n 20 m KB carry (24kgs)\n 10 KB Sit-ups (12kgs)\n 10 KB Clean + Jerk (12kgs)",
+    "description": "As many reps as possible in 10 mins, 10 KB Swing (24kgs), 20 m KB carry (24kgs), 10 KB Sit-ups (12kgs), 10 KB Clean + Jerk (12kgs)",
     "video":"",
     "alias": "19042022"
 },
 {
     "name": "EMOM 36",
     "equipments":  "Rowing Machine, DB (8kgs), Lat Extension Machine, Inclined Sit-ups" , 
-    "description": "Every minute of minute for 36 mins\n 12 Cal row\n 8+8 DB Triceps extension (8kgs)\n 15 Seated in & outs\n 10 Burpees\n 12 Lat extension\n 12 inclined Sit-ups",
+    "description": "Every minute of minute for 36 mins, 12 Cal row, 8+8 DB Triceps extension (8kgs), 15 Seated in & outs, 10 Burpees, 12 Lat extension, 12 inclined Sit-ups",
     "video":"",
     "alias": "20042022"
 },
 {
     "name": "EMOM 36",
     "equipments":  "Rowing Machine, DB (12kgs x 2 ,4kgs x 2), Inclined Sit-ups" , 
-    "description": "Every minute of minute for 36 mins\n 12 Cal row\n15 Seated in & outs\n 10 Bicep curls (12kgs)\n 12 Cal row\n 12 inclined Sit-ups\n 10 DB Shoulder Press (12kgs)\n 12 Cal Row \n 6 Ab wheel rollout \n 6 DB Lateral to Front Raise(4kgs)",
+    "description": "Every minute of minute for 36 mins, 12 Cal row,15 Seated in & outs, 10 Bicep curls (12kgs), 12 Cal row, 12 inclined Sit-ups, 10 DB Shoulder Press (12kgs), 12 Cal Row , 6 Ab wheel rollout , 6 DB Lateral to Front Raise(4kgs)",
     "alias": "21042022"
 },
 {
     "name": "3 X AMRAP 8",
     "equipments":  "Rowing Machine" , 
-    "description": "As many reps as possible in 8 mins\n 15 Cal row\n10 Pistols\n \n -- 3 mins break -- \n \n As many reps as possible in 8 mins \n 10 5m shuttle run\n 20 Air Squats\n \n -- 3 mins break -- \n \n As many reps as possible in 8 mins\n 10 DB Shoulder Press (12kgs)\n 14 Forward Lunges \n 20 Sit-ups \n 7 Burpees",
+    "description": "As many reps as possible in 8 mins, 15 Cal row,10 Pistols, , -- 3 mins break -- , , As many reps as possible in 8 mins , 10 5m shuttle run, 20 Air Squats, , -- 3 mins break -- , , As many reps as possible in 8 mins, 10 DB Shoulder Press (12kgs), 14 Forward Lunges , 20 Sit-ups , 7 Burpees",
     "video": "",
     "alias": "22042022"
     
@@ -90,7 +90,7 @@
 {
     "name": "Row-Run-Bike",
     "equipments":  "Rowing Machine, Bike " , 
-    "description": "3 Rounds of \n 500m row\n400m Run\n 1000m bike\n 5 mins break between sets",
+    "description": "3 Rounds of , 500m row,400m Run, 1000m bike, 5 mins break between sets",
     "video": "",
     "alias": "25042022"
     
@@ -98,7 +98,7 @@
 {
     "name": "Mikko's Triangle",
     "equipments":  "Rowing Machine, Skiing Erg, Assault Bikes" , 
-    "description": "EMOM for 39 minutes\n 12 Cal Row\n12 Cal SkiErg\n 12 Cal Assault Bike \n1 min rest",
+    "description": "EMOM for 39 minutes, 12 Cal Row,12 Cal SkiErg, 12 Cal Assault Bike ,1 min rest",
     "video": "",
     "alias": "26042022"
     
@@ -106,7 +106,7 @@
 {
     "name": "Basement Triangle",
     "equipments":  "Rowing machine, Kettle Bell(16kgs), 5m space" , 
-    "description": "Every minute of minute for  39 minutes:\n \n x Cal Row\nx-times KB Swings\n x-times 5m shuttle run \n1 min rest \n \n x- choose a number between 10 - 20 depending on your fitness level ",
+    "description": "Every minute of minute for  39 minutes:, , x Cal Row,x-times KB Swings, x-times 5m shuttle run ,1 min rest , , x- choose a number between 10 - 20 depending on your fitness level ",
     "video": "",
     "alias": "27042022"
     
@@ -114,7 +114,7 @@
 {
     "name": "Ellen",
     "equipments":  "DB (22.5kg/15 kgs)" , 
-    "description": "3 rounds for time \n 20 Burpees \n21 Alternating DB Snatches \n 12 DB thrusters ",
+    "description": "3 rounds for time , 20 Burpees ,21 Alternating DB Snatches , 12 DB thrusters ",
     "video": "",
     "alias": "28042022"
     
@@ -122,7 +122,7 @@
 {
     "name": "Row Intervals",
     "equipments": "Rowing Machine" , 
-    "description": "10 rounds for time \n500m rowing \n 1 min break between sets ",
+    "description": "10 rounds for time ,500m rowing , 1 min break between sets ",
     "video": "",
     "alias": "29042022"
     
@@ -130,7 +130,7 @@
 {
     "name": "CrossFit Open 22.1 ",
     "equipments":  "Box, DB (22.5kgs/15kgs), Wall" , 
-    "description": "Complete as many rounds as possible\n in 15 minutes of\n 3 wall walks\n12 dumbbell snatches\n 15 box jump-overs ",
+    "description": "Complete as many rounds as possible, in 15 minutes of, 3 wall walks,12 dumbbell snatches, 15 box jump-overs ",
     "video": "",
     "alias": "30042022"
     
@@ -138,7 +138,7 @@
 {
     "name": "AMRAP 12",
     "equipments":  "Jump ropes" , 
-    "description": "Complete as many rounds as possible\n  in 15 minutes of\n10 Burpees\n25 Double under's",
+    "description": "Complete as many rounds as possible,  in 15 minutes of,10 Burpees,25 Double under's",
     "video": "",
     "alias": "31042022"
     
@@ -146,7 +146,7 @@
 {
     "name": "4 rounds x E10min",
     "equipments":  "Bike, Skiing machine" , 
-    "description": "4 rounds X Every 10mins \n400m Run\n500m Skiing \n 1000m Bike",
+    "description": "4 rounds X Every 10mins ,400m Run,500m Skiing , 1000m Bike",
     "video": "",
     "alias": "01052022"
     
@@ -154,7 +154,7 @@
 {
     "name": "AMRAP 10",
     "equipments":  "Bar, 50/60cm Box" , 
-    "description": "As many rounds as possible \n in 10 mins\n 6 Toe to Bars \n6 Box over burpees\n 10 Pistol Squats",
+    "description": "As many rounds as possible , in 10 mins, 6 Toe to Bars ,6 Box over burpees, 10 Pistol Squats",
     "video": "",
     "alias": "02052022"
     
@@ -162,14 +162,14 @@
 {
     "name": "5 rounds x E4M",
     "equipments":  "Rowing Machine, Thread mill " , 
-    "description": "Every 4 mins until you reach\n  500 Calories on rowing machine \n 500m rowing \n200m run",
+    "description": "Every 4 mins until you reach,  500 Calories on rowing machine , 500m rowing ,200m run",
     "video": "",
     "alias": "03052022"  
 },
 {
     "name": "EMOM 10",
     "equipments":  "Barbell, Weights" , 
-    "description": "Every minute of minute \n for 36 mins \n 5 Power Clean & Jerks @ 60/40 kg",
+    "description": "Every minute of minute , for 36 mins , 5 Power Clean & Jerks @ 60/40 kg",
     "video": "",
     "alias": "04052022"
     
@@ -177,7 +177,7 @@
 {
     "name": "AMRAP 5 Abs blaster",
     "equipments":  "None" , 
-    "description": "As many rounds as possible in 5 mins \n 20 Situps \n 20 In and outs \n 20 Mountain Climbers",
+    "description": "As many rounds as possible in 5 mins , 20 Situps , 20 In and outs , 20 Mountain Climbers",
     "video": "",
     "alias": "05052022"
     
@@ -185,7 +185,7 @@
 {
     "name": "EMOM 16",
     "equipments":  "None" , 
-    "description": "Every minute of minute \n for 15 mins \n10 x 5 m shuttle run \n 10 x Burpees \n 20 Situps \n 20 Alternating Lunges",
+    "description": "Every minute of minute , for 15 mins ,10 x 5 m shuttle run , 10 x Burpees , 20 Situps , 20 Alternating Lunges",
     "video": "",
     "alias": "06052022"
     
@@ -193,7 +193,7 @@
 {
     "name": "10 X E3M ",
     "equipments":  "None" , 
-    "description": "Every 3 minutes of minute for 10 rounds \n10 Pistol Situps \n 15  Pushups \n 20 Tucks \n 10 X 5 m Run",
+    "description": "Every 3 minutes of minute for 10 rounds ,10 Pistol Situps , 15  Pushups , 20 Tucks , 10 X 5 m Run",
     "video": "",
     "alias": "07052022"
     
@@ -201,7 +201,7 @@
 {
     "name": "Run ",
     "equipments":  "None" , 
-    "description": "Every 2 minutes for 10 rounds \n200m run\n 30 seconds break",
+    "description": "Every 2 minutes for 10 rounds ,200m run, 30 seconds break",
     "video": "",
     "alias": "08052022"
     
@@ -209,7 +209,7 @@
 {
     "name": "EMOM 20",
     "equipments":  "None" , 
-    "description": "Every of minute for 20 minutes \n30 seconds plank\n Mountain Climber\n 20 Sit-ups\n 20 tucks",
+    "description": "Every of minute for 20 minutes ,30 seconds plank, Mountain Climber, 20 Sit-ups, 20 tucks",
     "video": "",
     "alias": "09052022"
     
@@ -217,7 +217,7 @@
 {
     "name": "EMOM 16",
     "equipments":  "Pull-up Bar" , 
-    "description": "Every of minute for 16 minutes \n5 x 10m shuttle run\n 10 Toe to Bars\n 10 Pull-up",
+    "description": "Every of minute for 16 minutes ,5 x 10m shuttle run, 10 Toe to Bars, 10 Pull-up",
     "video": "",
     "alias": "10052022"
     
@@ -225,7 +225,7 @@
 {
     "name": "6 rounds for time",
     "equipments":  "Jump ropes, Wall" , 
-    "description": "6 rounds for time of:  \n20 double-unders \n8 hand release push-ups \n4 wall walks",
+    "description": "6 rounds for time of:  ,20 double-unders ,8 hand release push-ups ,4 wall walks",
     "video": "",
     "alias": "11052022"
     
@@ -233,7 +233,7 @@
 {
     "name": "For time",
     "equipments":  "None" , 
-    "description": "As fast as possible \n100 Burpees \n100 Air Squats\n100 Situps\n50 Burpees \n50 Air Squats\n50 Situps",
+    "description": "As fast as possible ,100 Burpees ,100 Air Squats,100 Situps,50 Burpees ,50 Air Squats,50 Situps",
     "video": "",
     "alias": "12052022"
     
@@ -241,7 +241,7 @@
 {
     "name": "YGIG 20 mins",
     "equipments":  "Barbell, Pull-up Bar" , 
-    "description": "As many rounds as possible with a partner(You Go I Go) \n6 Thrusters (30/40kgs) \n6 5m Shuttle Run \n6 Pull-ups",
+    "description": "As many rounds as possible with a partner(You Go I Go) ,6 Thrusters (30/40kgs) ,6 5m Shuttle Run ,6 Pull-ups",
     "video": "",
     "alias": "13052022"
     
@@ -249,7 +249,7 @@
 {
     "name": "YGIG 20 mins",
     "equipments":  "Pull-up Bar" , 
-    "description": "As many rounds as possible with a partner(You Go I Go) \n10 Air Squats\n6 Burpees \n6 Toe to Bar",
+    "description": "As many rounds as possible with a partner(You Go I Go) ,10 Air Squats,6 Burpees ,6 Toe to Bar",
     "video": "",
     "alias": "14052022"
     
@@ -257,7 +257,7 @@
 {
     "name": "YGIG 20 mins",
     "equipments":  "Jump Ropes, Kettle Bell" , 
-    "description": "As many rounds as possible with a partner(You Go I Go) \n20 Double Under\n20 Sit-ups\n10 KB Swing (16kgs)",
+    "description": "As many rounds as possible with a partner(You Go I Go) ,20 Double Under,20 Sit-ups,10 KB Swing (16kgs)",
     "video": "",
     "alias": "15052022"
     
@@ -265,7 +265,7 @@
 {
     "name": "AMRAP 30 mins",
     "equipments":  "Box, Pull-up Bar, 10m running space" , 
-    "description": "As many rounds as possible with a partner(You Go I Go) \n6 Toe to Bars\n6 Box over Burpees \n30sec plank\n 4 x 10m shuttle run",
+    "description": "As many rounds as possible with a partner(You Go I Go) ,6 Toe to Bars,6 Box over Burpees ,30sec plank, 4 x 10m shuttle run",
     "video": "",
     "alias": "16052022"
     
