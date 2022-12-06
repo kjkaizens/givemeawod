@@ -29,7 +29,7 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
   };
   return (
     <div className={styles.infoCard}>
-      <div id='wod_details' className={styles.wodDetails}  onClick={handleEvent} >
+      <div id='wod_details' className={styles.wodDetails}  onClick={handleEvent}  onTouchEnd={handleEvent}  >
       <div className={styles.title}>
         {props.name}
       </div>
