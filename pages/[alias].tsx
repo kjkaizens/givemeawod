@@ -18,8 +18,14 @@ const Details = (props: { description: string }) => {
 
 
 const WodCard = (props: { name:string, equipments: string, description: string, video?:string }) => {
+  const handleClick = () => {
+    // Enter full screen
+    const div = document.getElementById('wod_details');
+    div.requestFullscreen();
+  };
   return (
     <div className={styles.infoCard}>
+      <div id='wod_details' className={styles.wodDetails}  onClick={handleClick}>
       <div className={styles.title}>
         {props.name}
       </div>
@@ -32,6 +38,7 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
       <div>
         <div  className={styles.subtitle}>Details</div>
         <Details description={props.description} />
+      </div>
       </div>
 
      <div>
@@ -88,6 +95,8 @@ const PageLayout = (props:{children:React.ReactChild|React.ReactChild[]}) =>{
       <div className={styles.footer}>
         <RandomWodButton/> 
       </div>
+      
+
     </div>
   )
 }
@@ -107,9 +116,10 @@ const Home: NextPage = () => {
     const l = data.length
     const x = Math.floor(Math.random() * l);
     const new_wod_data = data[x]
+
     return(
       <PageLayout>
-         <div >
+         <div id ='wodcard'>
             <WodCard {...new_wod_data}/>
         </div>
     </PageLayout>  
@@ -117,11 +127,13 @@ const Home: NextPage = () => {
   }
   return (
     <PageLayout>
-      <div>
+      <div id ='wodcard'>
         <WodCard {...wod_data}/>
       </div>
     </PageLayout>  
   )
 }
+
+
 
 export default Home
