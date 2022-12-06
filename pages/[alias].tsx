@@ -21,7 +21,10 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
   const handleClick = () => {
     // Enter full screen
     const div = document.getElementById('wod_details');
-    div.requestFullscreen();
+    if(div){
+      div.requestFullscreen();
+    }
+    
   };
   return (
     <div className={styles.infoCard}>
