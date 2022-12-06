@@ -18,7 +18,8 @@ const Details = (props: { description: string }) => {
 
 
 const WodCard = (props: { name:string, equipments: string, description: string, video?:string }) => {
-  const handleClick = () => {
+  const handleEvent = () =>{
+    console.log('Click or touch event detected!');
     // Enter full screen
     const div = document.getElementById('wod_details');
     if(div){
@@ -28,7 +29,7 @@ const WodCard = (props: { name:string, equipments: string, description: string, 
   };
   return (
     <div className={styles.infoCard}>
-      <div id='wod_details' className={styles.wodDetails}  onClick={handleClick}>
+      <div id='wod_details' className={styles.wodDetails}  onClick={handleEvent}>
       <div className={styles.title}>
         {props.name}
       </div>
